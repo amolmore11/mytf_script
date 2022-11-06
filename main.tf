@@ -8,7 +8,7 @@ resource "aws_instance" "myec2" {
     instance_type = var.ec2_type
 
     tags = {
-      "Name" = "my_ec2"
+      "Name" = "my_ec2_testing_changes"
     }
   
 }
