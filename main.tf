@@ -9,7 +9,7 @@ resource "aws_instance" "myec2" {
 
     tags = {
       "Name" = "my_ec2_adaadadadsdasadsdas"
-      "owner" = "devproje"
+      "owner" = "amol"
     }
   
 }
